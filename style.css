@@ -1,0 +1,62 @@
+@import './modules/bio/bio.css';
+@import './modules/nav/nav.css';
+@import './modules/gallery/gallery.css';
+
+body {
+    background-color: #fafafa;
+    margin: 0;
+}
+
+.logo {
+    text-decoration: none;
+    margin-left: 0em;
+}
+
+.logo>img {
+    vertical-align: middle;
+}
+
+.search {
+    background: #fafafa;
+    margin-left: 19em;
+    height: 2em;
+    width: 15.5em;
+    border: 1px solid #dbdbdb;
+}
+
+.search::placeholder {
+    text-align: center;
+    color: #808080;
+}
+
+.container {
+    padding: 0 15%;
+}
+
+.profile-photo {
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+}
+
+.profile-photo>img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.profile-info .name {
+    font-size: 1.7em;
+    color: #545454;
+}
+
+.profile-info button {
+    background-color: #0095f6;
+    color: #ffffff;
+    font-size: 1.1em;
+    width: 6em;
+    height: 2em;
+    border: unset;
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+nav {
+    background-color: #ffffff;
+    height: 3.3em;
+    line-height: 3.3em;
+    padding: 0 13.5em;
+    border-bottom: 0.1px solid #dbdbdb;
+}
+
+.nav-links {
+    margin-left: 10em;
+}
+
+.nav-links>a {
+    margin-left: 1.5em;
+}
+
+.nav-links i {
+    transform: scale(1.6);
+    color: #252525;
+    vertical-align: middle;
+}
