@@ -5,3 +5,8 @@
 <p>Update:</p>
 <p>Added Follow Button</p>
 <p>Added Edit Profile Photo Button</p>
+<br>
+<p>Pending:</p>
+<p>Like and Dislike Photos</p>
+<p>Make Comments</p>
+<p>Delete Photos</p>
