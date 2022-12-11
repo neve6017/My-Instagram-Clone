@@ -1,14 +1,13 @@
-const request = indexedDB.open('instagram', 3);
+const request = indexedDB.open('instagram', 2);
 
 request.onsuccess = () => {
     const database = request.result;
-    console.log('success creating or accessing db');
-    console.log(request);
 }
 
 request.onupgradeneeded = () => {
     const database = request.result;
     database.createObjectStore('bio', { autoIncrement: true });
+    database.createObjectStore('pfp', { autoIncrement: true});
     database.createObjectStore('gallery', { autoIncrement: true });
 }
 

@@ -3,7 +3,6 @@ import { addEntryToDb, getEntryFromDb } from "../../database.js";
 const addGalleryEventListeners = () => {
     const photoInput = document.querySelector('#photoInput');
     photoInput.addEventListener('change', () => {
-        console.log(photoInput.files[0]);
         const reader = new FileReader();
         reader.readAsDataURL(photoInput.files[0]);
         

@@ -10,4 +10,4 @@ const EditBio = () => {
     `
 }
 
-export default EditBio
+export default EditBio;

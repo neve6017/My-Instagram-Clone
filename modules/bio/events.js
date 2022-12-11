@@ -28,4 +28,19 @@ const addBioEventListeners = () => {
     })
 }
 
-export default addBioEventListeners
+const addPfpEventListeners = () => {
+    const editPfpButton = document.querySelector('#pfpInput');
+
+    editPfpButton.addEventListener('change', () => {
+        const pfpreader = new FileReader();
+        pfpreader.readAsDataURL(pfpInput.files[0]);
+
+        pfpreader.addEventListener('load', () => {
+            addEntryToDb('pfp',pfpreader.result);
+        });
+
+        clearAllEntries('pfp');
+    })
+}
+
+export { addBioEventListeners, addPfpEventListeners }
