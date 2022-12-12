@@ -1,6 +1,5 @@
 const loadFollowButton = () => {
     $("#follow-button").click(function () {
-        console.log(123)
       if ($("#follow-button").text() == "Follow") {
         // *** State Change: To Following ***
         // We want the button to squish (or shrink) by 10px as a reaction to the click and for it to last 100ms
